@@ -1,0 +1,6 @@
+[submodule "space_math_utilities"]
+	path = space_math_utilities
+	url = git@git.ifr.uni-stuttgart.de:ifr-space/space_math_utilities.git
+[submodule "simplified_vleo_aerodynamics_core"]
+	path = simplified_vleo_aerodynamics_core
+	url = git@git.ifr.uni-stuttgart.de:ifr-space/vleo-aerodynamics/simplified_vleo_aerodynamics_core.git
