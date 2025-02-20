@@ -14,23 +14,15 @@ git clone https://github.com/ifrunistuttgart/vleo-aerodynamics-tool.git
 ````bash
  cd vleo-aerodynamoics-tool
  ````
-### Opening the project
 
-To open the project directory, run:
-````bash
-code .
-````
-
-and initialize the required submodules
+Initialize the required submodules
 
 ````bash
-git submodule init
-git submodule update --recursive
+git submodule update --init --recursive
 ````
 Finally, make sure the repository and the external dependencies are on the Matlab path.
 
 Once the setup is complete, you should be able to run the example code and utilize the main functions provided by the submodules.
-For a QuickStart-Guide consisting of a step-by-step example go to [HowTo.md](HowTo.md)
 
 ## Important functions
 
