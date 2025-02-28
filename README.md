@@ -55,8 +55,13 @@ Scalar values are plotted as surface colors and vectorial values are plotted as 
 - `vectorial_values`: 1xN cell array of vectorial values to be plotted on the surfaces (optional)
 - `scale_vectorial_values`: scalar, the scale factor for the vectorial values (optional)
 
-If you have problems with the `showBodies`-function, check the dimensions of your imported control surfaces and compare them to the ones in the example.
-**This simulation can handle a variety of satellite configurations, but if your CAD satellite is not imported part by part, errors will occur.**
+If you have problems with the `showBodies`-function, check the dimensions of your imported control surfaces and compare them to the ones in the example. For instance, if the satellite's main body was unintentionally composed of multiple parts during the CAD design phase without this being evident upon file export, the main body’s dimensions may no longer be compatible.
+
+If, for example, a part of the main body was inadvertently "hollowed out" and the change was not reverted before exporting the file, it might go unnoticed in the final visualization and be overlooked. However, for those experienced in CAD, such an issue is unlikely to occur. Nonetheless, it is worth mentioning as a potential pitfall.
+
+One crucial point to keep in mind:
+
+**This simulation can handle a variety of satellite configurations, but if your CAD satellite is not imported part by part, errors related to dimensionality will occur.**
 
 
 ### Calculate torques and forces with `vleoAerodynamics.m`
