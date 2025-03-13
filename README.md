@@ -11,7 +11,7 @@ After making sure Git is installed, follow these steps:
      ```
 - Navigate into the cloned directory
      ```bash
-     cd vleo-aerodynamoics-tool
+     cd vleo-aerodynamics-tool
      ```
 - Finally, make sure the repository and the external dependencies are on the Matlab path.
 
